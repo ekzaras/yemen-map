@@ -1,0 +1,45 @@
+#mapContainer {
+  backgroundColor: #ccc;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+
+#legend {
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 0px 15px 0px 15px;
+  display: inline-block;
+  margin-top: 35px;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: arial,sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+
+}
+
+a:hover {
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 400px;
+  height: 100%;
+  padding: 10px 30px 15px 30px;
+  box-sizing: border-box;
+}
+
+.sidebar h3 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000000;
+}
